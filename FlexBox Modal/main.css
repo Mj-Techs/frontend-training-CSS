@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+}
+.heading {
+  color: #ccc;
+}
+.flexbox_container {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+}
+.flexbox {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: salmon;
+}
+.box1 {
+  min-height: 100px;
+  /* flex-shrink: 0; */
+}
+.box2 {
+  min-height: 200px;
+  /* flex-grow: 2; */
+}
+.box3 {
+  min-height: 300px;
+  /* flex-grow: 1; */
+}
